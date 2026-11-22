@@ -1,0 +1,22 @@
+{
+  "name": "ritmo-corrida",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ritmo: app de corrida com treino ao vivo, ritmo, histórico e metas.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test \"src/utils/*.test.js\""
+  },
+  "author": "Beatriz Almeida Andrade",
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^7.1.0"
+  }
+}
